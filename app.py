@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 from multiapp import MultiApp
 from apps import home, train
 from PIL import  Image
