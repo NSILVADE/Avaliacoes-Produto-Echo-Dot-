@@ -29,11 +29,6 @@ from matplotlib.backends.backend_agg import RendererAgg
 def app():
     #configuration of the page
     #st.set_page_config(layout="wide")
-    matplotlib.use("agg")
-    _lock = RendererAgg.lock
-
-    SPACER = .2
-    ROW = 1
 
     st.title("Analise de Avaliaçãoes")
 
