@@ -42,6 +42,6 @@ class MultiApp:
         app = st.sidebar.selectbox(
             'Navigation',
             self.apps,
-            format_func=lambda app: app['home'])
+            format_func=lambda app: app['title'])
 
         app['function']()
