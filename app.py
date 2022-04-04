@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 app = MultiApp()
 
 
-display = Image.open('echodot.png')
+display = Image.open('echodot.jpg')
 display = np.array(display)
 col1, col2 = st.beta_columns(2)
 col1.image(display, width = 400)
